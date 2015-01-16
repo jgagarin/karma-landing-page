@@ -46,3 +46,122 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+*{
+    box-sizing: border-box;
+}
+/*=== styles to help see the divs ===*/
+body {
+    background-color: LightGray;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+/*== nav styles ==*/
+
+nav {
+    background: #fff;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+nav > .content {
+    height: 4.375rem;
+    width: 50.625rem;
+    margin: 0 auto;
+    
+}
+
+nav .content:after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+nav ul.links {
+    list-style-type: none;
+    float: right;
+    margin: 1.75em 1em 0 1em;
+}
+
+nav ul.links li {
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+nav ul.links li .active {
+    color: #4c5058;
+font-weight: 500;
+}
+
+nav ul.links li a {
+    font-size: 1.04rem;
+    font-weight: 400;
+    text-decoration: none;
+    color:#838994;
+}
+
+nav ul.links li a:hover{
+    color: #4c5058;
+
+}
+img.logo{
+    height: 2.5em;
+    float: left;
+    margin-top: 1em;
+}
+
+
+/*== Header Styles ==*/
+
+.intro-header {
+    background-image: url(../images/first-background%20copy.jpg);
+    background-size: cover;
+    background-postion: center bottom;
+    background-repeat: no-repeat;
+    height:45.938rem; 
+    padding: 6em 0;
+}
+
+.intro-content {
+    width: 970px;
+    margin: 0 auto;
+}
+.intro-content h1, .intro-content h2 {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+}
+
+.intro-content h1{
+    font-size: 3.25rem;
+    margin: 2em 0 1em;
+    
+}
+.intro-content h2 {
+    font-size: 1.75rem;
+    margin-top: -1.2em;
+    margin-bottom: 0.75em;
+}
+.big-button {
+    width: 9.688rem;
+background-color: #f15a29;
+border-color: #f15a29;
+text-shadow: none;
+border-style: none;
+border-radius: 4px;
+padding: 1rem 1.5rem;
+color: white;
+font-size: 1.125rem;
+margin: 0 auto;
+display: block;    
+}
+.big-button:hover{
+     background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
