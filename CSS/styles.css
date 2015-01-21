@@ -165,3 +165,43 @@ display: block;
     border-color: #cf3d0e;
     cursor: pointer;
 }
+
+/*== Icon Section Styles ==*/
+
+.icons{
+    padding: 6em 0;
+    background: #fff;
+
+}
+
+.icon-content{
+    width: 970px;
+    margin: 3em auto;
+}
+
+.icon-content h1{
+    text-align: center;
+    font-size: 3.25rem;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+}
+.icon-content h3{
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    margin: 2em 0;
+}
+img.icon{
+    height: 8em;
+}
+ul.icons-list{
+    text-align: center;
+    margin-top: 3em;
+    margin-left: -1.5em
+}
+ul.icons-list li {
+    display: inline-block;
+    margin-right: 5em;
+}
+ul.icons-list li:last-of-type{
+    margin-right: 0;
+}
