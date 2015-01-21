@@ -52,14 +52,14 @@ table {
 }
 /*=== styles to help see the divs ===*/
 body {
-    background-color: LightGray;
+    background-color: #fff;
     -webkit-font-smoothing: antialiased;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
 }
-div {
+/*div {
     border: 1px solid Chocolate;
-}
+}*/
 
 /*== nav styles ==*/
 
@@ -212,4 +212,48 @@ ul.icons-list li:first-of-type{
 }
 ul.icons-list li:last-of-type{
     margin-right: 0;
+}
+
+/*==Footer Styles==*/
+
+.footer{
+    padding-bottom: 9.375rem;
+    background: #fff;
+}
+.footer hr {
+    width: 970px;
+    border: 0;
+    border-top: solid 1px #eaebec;
+}
+.footer-content h4{
+    text-align: center;
+    margin: 2em 0 1.25rem;
+}
+.footer-content h5{
+    text-align: center;
+    color:#838994;
+    font-weight: 300;
+    font-size:0.9rem;
+    margin-top: 1.25rem;
+}
+ul.footer-icons{
+    text-align: center;
+}
+ul.footer-icons li{
+    display: inline-block;
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: solid 1px #eaebec;
+    padding: 0.625rem 0;
+    margin: 0 5px;
+}
+.twitter{
+    color:#55acee;
+}
+.facebook{
+    color: #4c66a4;
+}
+.instagram{
+    color: #3f729b;
 }
