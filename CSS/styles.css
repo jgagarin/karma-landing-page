@@ -64,7 +64,11 @@ div {
 /*== nav styles ==*/
 
 nav {
+    position:fixed;
+    width: 100%;
+    z-index: 9999;
     background: #fff;
+    border-bottom: solid 1px #DDD;
     padding-left: 3em;
     padding-right: 3em;
 }
@@ -128,7 +132,7 @@ img.logo{
 
 .intro-content {
     width: 970px;
-    margin: 0 auto;
+    margin: 10em auto 0;
 }
 .intro-content h1, .intro-content h2 {
     color: #fff;
@@ -177,6 +181,7 @@ display: block;
 .icon-content{
     width: 970px;
     margin: 3em auto;
+    color: #1d1e21;
 }
 
 .icon-content h1{
@@ -200,7 +205,10 @@ ul.icons-list{
 }
 ul.icons-list li {
     display: inline-block;
-    margin-right: 5em;
+    margin-right: 3em;
+}
+ul.icons-list li:first-of-type{
+    margin-right: 2.75em;
 }
 ul.icons-list li:last-of-type{
     margin-right: 0;
